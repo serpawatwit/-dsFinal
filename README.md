@@ -1,4 +1,4 @@
-# Deployd Data Science State Employee analyzer
+# Deployed Data Science State Employee analyzer
 
 
 ## Introduction
