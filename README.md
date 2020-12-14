@@ -12,4 +12,37 @@ Being able to reference a sample project truly helped our group. It helped give 
 
 The model processing and training are conducted using a Jupyter Notebook and is available [here](https://jupyter.cs.wit.edu/user/serpaw/notebooks/Untitled3.ipynb).
 
-This data set, after extensive grunging and normalization, has over 938,224 sample. Due to this extensive size, we decided to randomly sample 5,000 of these entries so we not only had a significant amount of data, but didn't overwhelm ourselves with too much information. In the future I believe we potentially work with the entire dataset, but that was unrealistic for us at this current time. The original data set can be found online at git (insert link). The modified dataset can be found online at git (isnert link) as well. 
+This data set originally had 1,018,635 data points within 35 columns. Due to this extensive size, we decided some munging was necessary. First of all we minimized the number of columns within the dataset. Accomplishing this, however, was a harder task than previously thought. Some of data was influenced by extranious factors during the traffic stop. Factors such as bring under the influence, not wearing a seatbelt, causing an accident, causing others to be in an accident, causing a fatality, etc. We decided that if any of these columns were true, that that entire data point was not to be used. Then, once all this was done to all necessary columns, the column itself was deleted. This was an attempt at normalizing the data. Our goal was to analyze the data of a traffic stop that did not result in any further complications. After conducting this data trimming, we were left 938,224 samples within 6 columns. These columns were; State, VehicleType, Violation, Charge, Gender and Race. 
+
+We alsp decided to randomly sample 5,000 of these entries so we not only had a significant amount of data, but didn't overwhelm ourselves with too much information. In the future I believe we potentially work with the entire dataset, but that was unrealistic for us at this current time. 
+
+The original data set can be found online at git (insert link). The modified dataset can be found online at git (isnert link) as well. 
+
+Data preview:
+(Insert Image)
+
+Our data set has categorical features in all 6 columns. As suggested in the sample project, we utilized OneHotEncoder/ColumnTransformer on these features.\
+
+## Methods
+Tools:
+- 
+- 
+- 
+- 
+
+Inference Methods used with Scikit:
+- 
+- 
+- 
+- 
+
+## Results
+App is here
+What it does
+(Screenshot here)
+
+## Discussion
+
+## Summary
+
+## References
