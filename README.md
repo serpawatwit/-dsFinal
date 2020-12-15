@@ -3,7 +3,7 @@
 
 ## Introduction
 
-The objective this project is to analyze the prices of cars sold by car Dekho and determine how the price of a vehicle relates to the features and statistics of a vehicle. My teammate and I were interested in seeing how factors such as year made, km driven, fuel, seller, transmission, and owner impact the price of a car you buy. Our goal was to deploy our findings to an app, but due to limited time, and balancing other projects on top of this one, that goal was sadly slightly out of reach. Although, this motivation was inspired by the [pycaret post](https://towardsdatascience.com/build-and-deploy-machine-learning-web-app-using-pycaret-and-streamlit-28883a569104)[1].
+The objective this project is to analyze the prices of cars sold by car Dekho and predict the price of a vehicle related to the features and statistics of it. My teammate and I were interested in seeing how factors such as year made, km driven, fuel, seller, transmission, and owner impact the price of a car you buy. Our goal was to deploy our findings to an app, but due to limited time, and balancing other projects on top of this one, that goal was sadly slightly out of reach. Although, this motivation was inspired by the [pycaret post](https://towardsdatascience.com/build-and-deploy-machine-learning-web-app-using-pycaret-and-streamlit-28883a569104)[1].
 
 As briefly mentioned above, this project was inspired by our curiosity of how secondhand vehicles are priced. Both members of our team have an interest in cars and thought this would be a project that would maintain our interest and possibly prove useful when buying a car post-graduation. To analyze our dataset, we will be utilizing NumPy/panda and scikit.
 
