@@ -84,7 +84,7 @@ THe greatest challenge of this project didn't have much to do with the work itse
 
 ## Summary
 
-This project uses a supervised regression model to predict the cost of cars based off of 7 complementary columns. The model h0vers around an extremely high 97% for the test data.
+This project uses a supervised regression model to predict the cost of cars based off of 7 complementary columns. The model hovers around an extremely high 97% for the test data.
 
 Although we were unable to deploy this project in time for the presentation, we intend on deploying it at some point because we believe it will be invaluable to have a project like this in our portfolio.
 
