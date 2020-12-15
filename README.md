@@ -9,7 +9,7 @@ As briefly mentioned above, this project was inspired by our curiosity of how se
 
 ## Selection of Data
 
-The model processing and training were conducted using a Jupyter Notebook and are available [here](https://jupyter.cs.wit.edu/user/serpaw/notebooks/Car%20Data.ipynb). The dataset we utilized was obatained through Kaggle. The link to the owner of this dataset is [here](https://www.kaggle.com/nehalbirla/vehicle-dataset-from-cardekho)[2].
+The model processing and training were conducted using a Jupyter Notebook and are available [here](https://github.com/serpawatwit/-dsFinal/blob/main/Car%20Data.ipynb). The dataset we utilized was obatained through Kaggle. The link to the owner of this dataset is [here](https://www.kaggle.com/nehalbirla/vehicle-dataset-from-cardekho)[2].
 
 This dataset consists of 4,340 entries that consist of the cars that are currently listed on the cardekho's website. Each data point also resides within 8 columns. These columns are; Name, Year, Selling_Price, Km_driven, Fuel, Seller_Type, Transmission and Owner. If you wish to see the website that the cars within this dataset are found click [here](https://www.cardekho.com/)[3].
 
