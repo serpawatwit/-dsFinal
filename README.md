@@ -29,22 +29,50 @@ Linear Regression Preview:
 ![LR screenshot](./data_preview.PNG)
 
 ## Methods
+
 Tools:
-- 
-- 
-- 
-- 
+- Seaborn, numpy, panda, and sklean for data analysis
+- Github for project repo
 
 Inference Methods used with Scikit:
-- 
-- 
-- 
-- 
+- linear regression model
+- Features: OneHotEncoder/ColumnTransformer and train_test_split
 
 ## Results
-App is here
-What it does
-(Screenshot here)
+
+We want to preface our results by refering everyone to [this](https://acadgild.com/blog/linear-regression-on-boston-housing-data)[5] webpage. This is a dataset that is used to predict the cost of Boston housing. We looked at this file and took a lot away in terms of which graphs to use and how to properly create them. It was an invaluable resourse.
+
+Originally, I simply used pairplot to see the relationships between all the features in the dataset.
+
+Pairplot:
+
+![LR screenshot](./data_preview.PNG)
+
+From there, I used a heatmap to determine which column had the highest correlation (which was only 0.41) with selling_price, which was year. Working off of this finding, we utilized a lmplot to plot these two columns to demonstrate their relationship
+
+Heatmap:
+
+![LR screenshot](./data_preview.PNG)
+
+lmplot:
+
+![LR screenshot](./data_preview.PNG)
+
+We also used Linear Regression to determine the coefficient of the prediction, when using selling_price as the independent variable and all others as dependent variables, which was 0.9799261897460708
+
+Linear Regression:
+
+![LR screenshot](./data_preview.PNG)
+
+Finally, we utilized sklearn train_test_split to train the model with 80% of the data and then test the data against the remaining 20% of the data. From here, we used this linear regression model to predict the cost of a vehicle given the features defined in the dataset. Finally, we plotted our predictions and compared them to the acutual values.
+
+Prediction Scatter Plot
+
+![LR screenshot](./data_preview.PNG)
+
+Prediction vs Actual Bar Plot
+
+![LR screenshot](./data_preview.PNG)
 
 ## Discussion
 
