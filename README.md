@@ -19,7 +19,14 @@ Data preview:
 
 ![data screenshot](./data_preview.PNG)
 
-Our data set has categorical features in all 6 columns. As suggested in the sample project, we utilized OneHotEncoder/ColumnTransformer on these features.\
+The data we are working with has categorical data in 5 of the columns. These columns are Fuel, Name, Owner, Seller_Type and transmission.
+To handle this data I used the sample project provided by our professor, click [here](https://github.com/memoatwit/dsexample) to see, as reference. Due to this decision, OneHotEncoder/ColumnTransformer on these features and kept the rest of the features as is.
+
+We then used a linear regression model to to identify the learning accuracy using the transformation previously mentioned.
+
+Linear Regression Preview:
+
+![LR screenshot](./data_preview.PNG)
 
 ## Methods
 Tools:
