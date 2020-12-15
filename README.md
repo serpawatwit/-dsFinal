@@ -76,9 +76,15 @@ Prediction vs Actual Bar Plot
 
 ## Discussion
 
+After a lot of trial and error, we found that for this problem linear regression was, by far, our best bet in conjunction with one-hot encoding for the columns that were not quantitative. From here, we trained the model with a data split of 80/20. This resulted in a 66% training accurracy. We also ended up having a test accuracy of 98.7%.
+
+After getting these results, we attempted to find similar tests on the same dataset on Kaggle, but were unable to find any. Hopefully, in the future, we will be able to expand our dataset to other dealers and see if the trend persists.
+
+THe greatest challenge of this project didn't have much to do with the work itself. It more-so had to do with being able to balance our finals schedule and other projects. One of us had 3 other projects and two final exams that required just as much attention as this project. Being able to balance this work is something we could 1005 improve on in the future.
+
 ## Summary
 
-This project uses a supervised regression model to predict the cost of cars based off of 7 complementary columns. The model havers around an extremely high 97%
+This project uses a supervised regression model to predict the cost of cars based off of 7 complementary columns. The model h0vers around an extremely high 97% for the test data.
 
 Although we were unable to deploy this project in time for the presentation, we intend on deploying it at some point because we believe it will be invaluable to have a project like this in our portfolio.
 
