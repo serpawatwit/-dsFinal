@@ -58,6 +58,8 @@ lmplot:
 
 ![LR screenshot](./lmplot.PNG)
 
+This was done to show the relation between these two features. Later, We notice that the coefficient is much higher in other tests. This is due to the fact that this is checkking case by case scenarios, while later on in the project we are using multiple dependent variables in conjunction with the independent variable.
+
 We also used Linear Regression to determine the coefficient of the prediction, when using selling_price as the independent variable and all others as dependent variables, which was 0.9799261897460708
 
 Linear Regression:
