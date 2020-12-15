@@ -16,7 +16,7 @@ This dataset consists of 4,340 entries that consist of the cars that are current
 The dataset .csv file can be found online at [git](https://github.com/serpawatwit/-dsFinal/blob/main/CAR%20DETAILS%20FROM%20CAR%20DEKHO.csv) as well. 
 
 Data preview:
-![data screenshot](./data preview.png)
+![data screenshot](./Data Preview.png)
 
 Our data set has categorical features in all 6 columns. As suggested in the sample project, we utilized OneHotEncoder/ColumnTransformer on these features.\
 
