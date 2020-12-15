@@ -86,7 +86,7 @@ Beyond that, this project would have been impossible without the tools and refer
 
 ## References
 
-[1] [pycaret post](https://towardsdatascience.com/build-and-deploy-machine-learning-web-app-using-pycaret-and-streamlit-28883a569104)[1]
+[1] [pycaret post](https://towardsdatascience.com/build-and-deploy-machine-learning-web-app-using-pycaret-and-streamlit-28883a569104)
 
 [2] [Car Cost Dataset](https://www.kaggle.com/nehalbirla/vehicle-dataset-from-cardekho)
 
