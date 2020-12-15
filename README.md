@@ -26,7 +26,7 @@ We then used a linear regression model to to identify the learning accuracy usin
 
 Linear Regression Preview:
 
-![LR screenshot](./data_preview.PNG)
+![LR screenshot](./linear_regression.PNG)
 
 ## Methods
 
@@ -46,33 +46,33 @@ Originally, I simply used pairplot to see the relationships between all the feat
 
 Pairplot:
 
-![LR screenshot](./data_preview.PNG)
+![LR screenshot](./pairplot.PNG)
 
 From there, I used a heatmap to determine which column had the highest correlation (which was only 0.41) with selling_price, which was year. Working off of this finding, we utilized a lmplot to plot these two columns to demonstrate their relationship
 
 Heatmap:
 
-![LR screenshot](./data_preview.PNG)
+![LR screenshot](./heatmap.PNG)
 
 lmplot:
 
-![LR screenshot](./data_preview.PNG)
+![LR screenshot](./lmplot.PNG)
 
 We also used Linear Regression to determine the coefficient of the prediction, when using selling_price as the independent variable and all others as dependent variables, which was 0.9799261897460708
 
 Linear Regression:
 
-![LR screenshot](./data_preview.PNG)
+![LR screenshot](./linear_regression_results.PNG)
 
 Finally, we utilized sklearn train_test_split to train the model with 80% of the data and then test the data against the remaining 20% of the data. From here, we used this linear regression model to predict the cost of a vehicle given the features defined in the dataset. Finally, we plotted our predictions and compared them to the acutual values.
 
 Prediction Scatter Plot
 
-![LR screenshot](./data_preview.PNG)
+![LR screenshot](./scatterplot.PNG)
 
 Prediction vs Actual Bar Plot
 
-![LR screenshot](./data_preview.PNG)
+![LR screenshot](./barplot.PNG)
 
 ## Discussion
 
