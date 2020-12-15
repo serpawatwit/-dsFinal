@@ -78,4 +78,20 @@ Prediction vs Actual Bar Plot
 
 ## Summary
 
+This project uses a supervised regression model to predict the cost of cars based off of 7 complementary columns. The model havers around an extremely high 97%
+
+Although we were unable to deploy this project in time for the presentation, we intend on deploying it at some point because we believe it will be invaluable to have a project like this in our portfolio.
+
+Beyond that, this project would have been impossible without the tools and references we had. We highly recommend taking a moment to take a look at them and read them over, especially [this](https://acadgild.com/blog/linear-regression-on-boston-housing-data)[5] one since it was the one we referenced the most.
+
 ## References
+
+[1] [pycaret post](https://towardsdatascience.com/build-and-deploy-machine-learning-web-app-using-pycaret-and-streamlit-28883a569104)[1]
+
+[2] [Car Cost Dataset](https://www.kaggle.com/nehalbirla/vehicle-dataset-from-cardekho)
+
+[3] [Dataset Raw Source](https://www.cardekho.com/)
+
+[4] [Dsexample Project](https://github.com/memoatwit/dsexample)
+
+[5] [Linear Regression on Boston Housing data](https://acadgild.com/blog/linear-regression-on-boston-housing-data)
