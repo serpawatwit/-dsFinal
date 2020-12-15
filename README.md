@@ -90,6 +90,12 @@ Although we were unable to deploy this project in time for the presentation, we 
 
 Beyond that, this project would have been impossible without the tools and references we had. We highly recommend taking a moment to take a look at them and read them over, especially [this](https://acadgild.com/blog/linear-regression-on-boston-housing-data)[5] one since it was the one we referenced the most.
 
+## Creators
+
+William Serpa, serpaw@wit.edu
+
+Corey Everett, everettc1@wit.edu
+
 ## References
 
 [1] [pycaret post](https://towardsdatascience.com/build-and-deploy-machine-learning-web-app-using-pycaret-and-streamlit-28883a569104)
